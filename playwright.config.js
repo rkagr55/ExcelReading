@@ -73,13 +73,14 @@ export default defineConfig({
           args: ["--start-maximized"],
         },
         fullyParallel: true,
+        headless: true,   //headless mode setting
       },
     },
 
     {
       name: 'firefox',
       use: { ...devices['Desktop Firefox'] },
-        fullyParallel: false,
+      fullyParallel: false,
     },
 
     {
