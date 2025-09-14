@@ -57,7 +57,7 @@ export default defineConfig({
     video: 'on-first-retry', //'off', 'on', 'retain-on-failure' and 'on-first-retry'.  // Record video only when retrying a test for the first time.
     actionTimeout: 10000, // Maximum time each action such as `click()` can take. Defaults to 0 (no limit).
     bypassCSP: true,      // Toggles bypassing Content-Security-Policy.
-    headless: false,    //headless mode setting
+    headless: true,    //headless mode setting
 
   },
 
